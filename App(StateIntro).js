@@ -2,7 +2,7 @@ import React from "react";
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default class App extends React.Component {
-  constructor(props) {
+  constructor(props) {   //constructor is a method used to initialize an object's state in a class
     super(props);
     this.state = {
       text: ""
